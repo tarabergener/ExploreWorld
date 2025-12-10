@@ -1,9 +1,10 @@
-import './style.css'
-import exploreLogo from './images/explore-logo.jpg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import "../style/style.css";
+import exploreLogo from "../images/explore-logo.jpg";
+import viteLogo from "/vite.svg";
+import { setupCounter } from "./counter.js";
+import { getData } from "./productData.mjs";
 
-document.querySelector('#header').innerHTML = `
+document.querySelector("#header").innerHTML = `
   <div>
     <a href="index.html" target="_blank">
       <img src="${exploreLogo}" class="logo vanilla" alt="JavaScript logo" />
@@ -16,6 +17,10 @@ document.querySelector('#header').innerHTML = `
       Click on the Vite logo to learn more
     </p>
   </div>
-`
+`;
 
-setupCounter(document.querySelector('#counter'))
+getData("flights").then((data) => {
+  console.log("API DATA:", data);
+});
+
+setupCounter(document.querySelector("#counter"));

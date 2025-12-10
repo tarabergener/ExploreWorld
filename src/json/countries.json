@@ -1,0 +1,524 @@
+{
+  "countries": [
+    {
+      "name": "Japan",
+      "description": "Japan blends ancient tradition with advanced modern culture, offering scenic landscapes, vibrant cities, and unique culinary experiences.",
+      "images": [
+        "/images/japan1.jpg",
+        "/images/japan2.jpg",
+        "/images/japan3.jpg"
+      ],
+      "attractions": [
+        {
+          "name": "Mount Fuji",
+          "description": "Japan’s highest peak and an iconic symbol, perfect for hiking and photography."
+        },
+        {
+          "name": "Fushimi Inari Shrine",
+          "description": "Famous for its thousands of red torii gates stretching through the mountain trails."
+        }
+      ],
+      "packages": {
+        "gold": 2999,
+        "silver": 1999,
+        "bronze": 1299
+      }
+    },
+
+    {
+      "name": "Italy",
+      "description": "Italy offers rich history, world-famous cuisine, art, architecture, and breathtaking coastlines.",
+      "images": ["/images/italy1.jpg", "/images/italy2.jpg"],
+      "attractions": [
+        {
+          "name": "Colosseum",
+          "description": "A historic Roman amphitheater considered one of the greatest works of ancient engineering."
+        },
+        {
+          "name": "Venice Canals",
+          "description": "A romantic city of waterways with gondolas floating through narrow canals."
+        }
+      ],
+      "packages": {
+        "gold": 3499,
+        "silver": 2499,
+        "bronze": 1599
+      }
+    },
+
+    {
+      "name": "Australia",
+      "description": "Australia offers stunning beaches, diverse wildlife, and world-renowned natural landmarks.",
+      "images": [
+        "/images/australia1.jpg",
+        "/images/australia2.jpg",
+        "/images/australia3.jpg"
+      ],
+      "attractions": [
+        {
+          "name": "Great Barrier Reef",
+          "description": "The world’s largest coral reef system, perfect for diving and snorkeling."
+        },
+        {
+          "name": "Sydney Opera House",
+          "description": "An architectural masterpiece located in the heart of Sydney’s harbor."
+        }
+      ],
+      "packages": {
+        "gold": 3799,
+        "silver": 2699,
+        "bronze": 1899
+      }
+    },
+    [
+      {
+        "name": "France",
+        "description": "France is known for its world-class cuisine, romantic cities, and historic landmarks that attract millions of visitors each year.",
+        "images": ["/images/france1.jpg", "/images/france2.jpg"],
+        "attractions": [
+          {
+            "name": "Eiffel Tower",
+            "description": "An iconic iron structure offering stunning panoramic views of Paris."
+          },
+          {
+            "name": "Louvre Museum",
+            "description": "The world’s largest art museum, home to masterpieces like the Mona Lisa."
+          }
+        ],
+        "packages": { "gold": 3299, "silver": 2399, "bronze": 1599 }
+      },
+      {
+        "name": "Spain",
+        "description": "Spain offers sunny beaches, lively festivals, historic architecture, and a vibrant cultural scene.",
+        "images": ["/images/spain1.jpg", "/images/spain2.jpg"],
+        "attractions": [
+          {
+            "name": "Sagrada Familia",
+            "description": "Gaudí’s unfinished basilica and a masterpiece of modernist architecture."
+          },
+          {
+            "name": "Park Güell",
+            "description": "A colorful public park filled with mosaic art and unique architectural elements."
+          }
+        ],
+        "packages": { "gold": 3099, "silver": 2199, "bronze": 1499 }
+      },
+      {
+        "name": "United Kingdom",
+        "description": "The UK blends royal tradition, modern cities, and scenic countryside landscapes.",
+        "images": ["/images/uk1.jpg", "/images/uk2.jpg"],
+        "attractions": [
+          {
+            "name": "Big Ben",
+            "description": "A historic clock tower and one of London's most famous landmarks."
+          },
+          {
+            "name": "Stonehenge",
+            "description": "An ancient stone circle with mysterious origins and archaeological importance."
+          }
+        ],
+        "packages": { "gold": 3499, "silver": 2599, "bronze": 1699 }
+      },
+      {
+        "name": "China",
+        "description": "China offers incredible historical sites, diverse landscapes, and a deep cultural heritage.",
+        "images": ["/images/china1.jpg", "/images/china2.jpg"],
+        "attractions": [
+          {
+            "name": "Great Wall of China",
+            "description": "A massive ancient fortification stretching thousands of miles."
+          },
+          {
+            "name": "Terracotta Army",
+            "description": "Thousands of sculpted soldiers buried with China’s first emperor."
+          }
+        ],
+        "packages": { "gold": 2899, "silver": 2099, "bronze": 1499 }
+      },
+      {
+        "name": "Brazil",
+        "description": "Brazil is known for its lively culture, rainforest biodiversity, and world-famous beaches.",
+        "images": ["/images/brazil1.jpg", "/images/brazil2.jpg"],
+        "attractions": [
+          {
+            "name": "Christ the Redeemer",
+            "description": "The massive hilltop statue overlooking Rio de Janeiro."
+          },
+          {
+            "name": "Iguaçu Falls",
+            "description": "A breathtaking system of massive waterfalls bordering Argentina."
+          }
+        ],
+        "packages": { "gold": 3099, "silver": 2299, "bronze": 1599 }
+      },
+      {
+        "name": "Canada",
+        "description": "Canada features vast natural landscapes, modern cities, and a reputation for friendly communities.",
+        "images": ["/images/canada1.jpg", "/images/canada2.jpg"],
+        "attractions": [
+          {
+            "name": "Niagara Falls",
+            "description": "One of the most powerful and iconic waterfalls in the world."
+          },
+          {
+            "name": "Banff National Park",
+            "description": "A scenic mountain region known for turquoise lakes and wildlife."
+          }
+        ],
+        "packages": { "gold": 2999, "silver": 2199, "bronze": 1599 }
+      },
+      {
+        "name": "Mexico",
+        "description": "Mexico blends ancient ruins, colorful cities, tropical beaches, and a rich culinary tradition.",
+        "images": ["/images/mexico1.jpg", "/images/mexico2.jpg"],
+        "attractions": [
+          {
+            "name": "Chichen Itza",
+            "description": "A Mayan pyramid and one of the New Seven Wonders of the World."
+          },
+          {
+            "name": "Cozumel",
+            "description": "An island paradise known for reefs, snorkeling, and clear waters."
+          }
+        ],
+        "packages": { "gold": 2599, "silver": 1899, "bronze": 1299 }
+      },
+      {
+        "name": "Germany",
+        "description": "Germany is known for its medieval castles, modern cities, and rich cultural heritage.",
+        "images": ["/images/germany1.jpg", "/images/germany2.jpg"],
+        "attractions": [
+          {
+            "name": "Neuschwanstein Castle",
+            "description": "A fairy-tale castle that inspired Disney’s iconic design."
+          },
+          {
+            "name": "Brandenburg Gate",
+            "description": "Berlin’s neoclassical monument and a symbol of European unity."
+          }
+        ],
+        "packages": { "gold": 3199, "silver": 2399, "bronze": 1699 }
+      },
+      {
+        "name": "Greece",
+        "description": "Greece offers ancient ruins, blue-and-white island architecture, and crystal-clear seas.",
+        "images": ["/images/greece1.jpg", "/images/greece2.jpg"],
+        "attractions": [
+          {
+            "name": "Acropolis of Athens",
+            "description": "A historic hilltop citadel featuring the Parthenon temple."
+          },
+          {
+            "name": "Santorini",
+            "description": "A volcanic island known for sunsets, white buildings, and scenic cliffs."
+          }
+        ],
+        "packages": { "gold": 2999, "silver": 2199, "bronze": 1499 }
+      },
+      {
+        "name": "Egypt",
+        "description": "Egypt offers ancient wonders, desert landscapes, and a rich archaeological history.",
+        "images": ["/images/egypt1.jpg", "/images/egypt2.jpg"],
+        "attractions": [
+          {
+            "name": "Pyramids of Giza",
+            "description": "Massive ancient pyramids and the Great Sphinx."
+          },
+          {
+            "name": "Luxor Temple",
+            "description": "A sprawling ancient temple complex on the east bank of the Nile."
+          }
+        ],
+        "packages": { "gold": 2799, "silver": 1999, "bronze": 1399 }
+      },
+      {
+        "name": "Thailand",
+        "description": "Thailand is famous for its tropical beaches, ornate temples, and vibrant night markets.",
+        "images": ["/images/thailand1.jpg", "/images/thailand2.jpg"],
+        "attractions": [
+          {
+            "name": "Phi Phi Islands",
+            "description": "A pristine island group known for turquoise waters and limestone cliffs."
+          },
+          {
+            "name": "Grand Palace",
+            "description": "A historic royal complex in Bangkok featuring exquisite architecture."
+          }
+        ],
+        "packages": { "gold": 2399, "silver": 1699, "bronze": 1199 }
+      },
+      {
+        "name": "South Korea",
+        "description": "South Korea blends cutting-edge technology with ancient palaces and natural beauty.",
+        "images": ["/images/korea1.jpg", "/images/korea2.jpg"],
+        "attractions": [
+          {
+            "name": "Gyeongbokgung Palace",
+            "description": "A grand royal palace at the heart of Seoul’s historic district."
+          },
+          {
+            "name": "N Seoul Tower",
+            "description": "A hilltop observation tower offering views of the entire city."
+          }
+        ],
+        "packages": { "gold": 2599, "silver": 1899, "bronze": 1299 }
+      },
+      {
+        "name": "India",
+        "description": "India offers diverse landscapes, ancient monuments, and one of the world’s richest cultural traditions.",
+        "images": ["/images/india1.jpg", "/images/india2.jpg"],
+        "attractions": [
+          {
+            "name": "Taj Mahal",
+            "description": "A magnificent marble mausoleum and symbol of eternal love."
+          },
+          {
+            "name": "Jaipur City Palace",
+            "description": "An ornate complex in the Pink City known for royal history."
+          }
+        ],
+        "packages": { "gold": 2299, "silver": 1599, "bronze": 1099 }
+      },
+      {
+        "name": "South Africa",
+        "description": "South Africa features wildlife safaris, dramatic coastlines, and multicultural cities.",
+        "images": ["/images/southafrica1.jpg", "/images/southafrica2.jpg"],
+        "attractions": [
+          {
+            "name": "Table Mountain",
+            "description": "A flat-topped mountain offering scenic views of Cape Town."
+          },
+          {
+            "name": "Kruger National Park",
+            "description": "One of Africa’s largest wildlife reserves, home to the Big Five."
+          }
+        ],
+        "packages": { "gold": 3399, "silver": 2499, "bronze": 1699 }
+      },
+      {
+        "name": "New Zealand",
+        "description": "New Zealand offers dramatic landscapes, adventure tourism, and Maori cultural experiences.",
+        "images": ["/images/newzealand1.jpg", "/images/newzealand2.jpg"],
+        "attractions": [
+          {
+            "name": "Milford Sound",
+            "description": "A stunning fjord surrounded by cliffs and waterfalls."
+          },
+          {
+            "name": "Hobbiton",
+            "description": "A charming movie set village used in The Lord of the Rings films."
+          }
+        ],
+        "packages": { "gold": 3999, "silver": 2999, "bronze": 1999 }
+      },
+      {
+        "name": "Turkey",
+        "description": "Turkey blends European and Middle Eastern influences with rich history and seaside resorts.",
+        "images": ["/images/turkey1.jpg", "/images/turkey2.jpg"],
+        "attractions": [
+          {
+            "name": "Hagia Sophia",
+            "description": "A monumental structure that has served as a church, mosque, and museum."
+          },
+          {
+            "name": "Cappadocia",
+            "description": "A region known for hot-air balloons and unique rock formations."
+          }
+        ],
+        "packages": { "gold": 2899, "silver": 2099, "bronze": 1499 }
+      },
+      {
+        "name": "Switzerland",
+        "description": "Switzerland is renowned for its alpine scenery, lakeside towns, and world-class skiing.",
+        "images": ["/images/switzerland1.jpg", "/images/switzerland2.jpg"],
+        "attractions": [
+          {
+            "name": "Matterhorn",
+            "description": "One of the most recognizable mountain peaks in the world."
+          },
+          {
+            "name": "Lake Geneva",
+            "description": "A serene lake bordered by picturesque towns and vineyards."
+          }
+        ],
+        "packages": { "gold": 4499, "silver": 3399, "bronze": 2399 }
+      },
+      {
+        "name": "Netherlands",
+        "description": "The Netherlands is known for windmills, tulip fields, canals, and vibrant cities.",
+        "images": ["/images/netherlands1.jpg", "/images/netherlands2.jpg"],
+        "attractions": [
+          {
+            "name": "Keukenhof Gardens",
+            "description": "A massive flower garden famous for colorful spring tulips."
+          },
+          {
+            "name": "Amsterdam Canals",
+            "description": "Historic waterways lined with charming houses and bridges."
+          }
+        ],
+        "packages": { "gold": 2999, "silver": 2199, "bronze": 1599 }
+      },
+      {
+        "name": "Sweden",
+        "description": "Sweden offers modern design, northern lights, and picturesque archipelagos.",
+        "images": ["/images/sweden1.jpg", "/images/sweden2.jpg"],
+        "attractions": [
+          {
+            "name": "Vasa Museum",
+            "description": "A maritime museum featuring a fully preserved 17th-century warship."
+          },
+          {
+            "name": "Abisko National Park",
+            "description": "One of the best places to view the northern lights."
+          }
+        ],
+        "packages": { "gold": 3299, "silver": 2499, "bronze": 1699 }
+      },
+      {
+        "name": "Norway",
+        "description": "Norway is known for dramatic fjords, glaciers, and scenic coastal landscapes.",
+        "images": ["/images/norway1.jpg", "/images/norway2.jpg"],
+        "attractions": [
+          {
+            "name": "Geiranger Fjord",
+            "description": "A UNESCO-listed fjord with deep blue water and steep cliffs."
+          },
+          {
+            "name": "Bryggen",
+            "description": "A colorful historic harbor district in Bergen."
+          }
+        ],
+        "packages": { "gold": 3599, "silver": 2699, "bronze": 1899 }
+      },
+      {
+        "name": "Argentina",
+        "description": "Argentina offers vibrant cities, diverse landscapes, and world-famous cuisine.",
+        "images": ["/images/argentina1.jpg", "/images/argentina2.jpg"],
+        "attractions": [
+          {
+            "name": "Perito Moreno Glacier",
+            "description": "A massive glacier known for its stunning blue ice walls."
+          },
+          {
+            "name": "Buenos Aires",
+            "description": "A lively capital famous for tango, food, and European architecture."
+          }
+        ],
+        "packages": { "gold": 2999, "silver": 2199, "bronze": 1599 }
+      },
+      {
+        "name": "Peru",
+        "description": "Peru is rich in ancient Incan history, Andean landscapes, and culinary traditions.",
+        "images": ["/images/peru1.jpg", "/images/peru2.jpg"],
+        "attractions": [
+          {
+            "name": "Machu Picchu",
+            "description": "A historic Incan citadel high in the Andes Mountains."
+          },
+          {
+            "name": "Sacred Valley",
+            "description": "A stunning region filled with ruins and traditional villages."
+          }
+        ],
+        "packages": { "gold": 2599, "silver": 1999, "bronze": 1399 }
+      },
+      {
+        "name": "Iceland",
+        "description": "Iceland features volcanoes, geysers, black-sand beaches, and the northern lights.",
+        "images": ["/images/iceland1.jpg", "/images/iceland2.jpg"],
+        "attractions": [
+          {
+            "name": "Blue Lagoon",
+            "description": "A famous geothermal spa surrounded by lava fields."
+          },
+          {
+            "name": "Gullfoss",
+            "description": "A dramatic two-tier waterfall along the Golden Circle route."
+          }
+        ],
+        "packages": { "gold": 3399, "silver": 2499, "bronze": 1799 }
+      },
+      {
+        "name": "Indonesia",
+        "description": "Indonesia offers lush jungles, tropical beaches, and a diverse blend of cultures.",
+        "images": ["/images/indonesia1.jpg", "/images/indonesia2.jpg"],
+        "attractions": [
+          {
+            "name": "Bali",
+            "description": "A tropical island paradise known for temples, beaches, and rice terraces."
+          },
+          {
+            "name": "Borobudur",
+            "description": "The world’s largest Buddhist temple complex."
+          }
+        ],
+        "packages": { "gold": 2499, "silver": 1799, "bronze": 1299 }
+      },
+      {
+        "name": "Portugal",
+        "description": "Portugal offers beautiful coastlines, historic cities, and warm Mediterranean charm.",
+        "images": ["/images/portugal1.jpg", "/images/portugal2.jpg"],
+        "attractions": [
+          {
+            "name": "Belém Tower",
+            "description": "A riverside fortress and symbol of Portugal’s Age of Discovery."
+          },
+          {
+            "name": "Douro Valley",
+            "description": "A scenic wine region known for terraced vineyards."
+          }
+        ],
+        "packages": { "gold": 2799, "silver": 2099, "bronze": 1499 }
+      },
+      {
+        "name": "Austria",
+        "description": "Austria features alpine landscapes, imperial palaces, and a rich classical music heritage.",
+        "images": ["/images/austria1.jpg", "/images/austria2.jpg"],
+        "attractions": [
+          {
+            "name": "Schönbrunn Palace",
+            "description": "A grand imperial residence with beautiful gardens."
+          },
+          {
+            "name": "Hallstatt",
+            "description": "A picturesque lakeside village surrounded by mountains."
+          }
+        ],
+        "packages": { "gold": 3299, "silver": 2399, "bronze": 1699 }
+      },
+      {
+        "name": "Finland",
+        "description": "Finland is known for saunas, lakes, forests, and northern lights viewing.",
+        "images": ["/images/finland1.jpg", "/images/finland2.jpg"],
+        "attractions": [
+          {
+            "name": "Santa Claus Village",
+            "description": "A festive attraction located near the Arctic Circle."
+          },
+          {
+            "name": "Helsinki Cathedral",
+            "description": "A striking neoclassical landmark overlooking the city’s main square."
+          }
+        ],
+        "packages": { "gold": 3199, "silver": 2399, "bronze": 1699 }
+      },
+      {
+        "name": "Morocco",
+        "description": "Morocco blends desert landscapes, ancient cities, and lively souks filled with culture.",
+        "images": ["/images/morocco1.jpg", "/images/morocco2.jpg"],
+        "attractions": [
+          {
+            "name": "Chefchaouen",
+            "description": "A blue-painted mountain town known for unique architecture."
+          },
+          {
+            "name": "Sahara Desert",
+            "description": "Golden sand dunes offering camel rides and desert camps."
+          }
+        ],
+        "packages": { "gold": 2599, "silver": 1899, "bronze": 1299 }
+      }
+    ]
+  ]
+}
