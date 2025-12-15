@@ -13,14 +13,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*******************************
+*           HEADER             *
+*******************************/
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-align: left;
 }
 
-.hero {
-  width: 100%;
-  overflow: hidden;
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 #app {
@@ -31,7 +36,6 @@ h1 {
 }
 
 .logo {
-  position: absolute;
   top: 0;
   left: 0;
   height: 5em;
@@ -54,6 +58,9 @@ h1 {
   color: #888;
 }
 
+/*******************************
+*           BUTTONS            *
+*******************************/
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -73,7 +80,14 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-/************ NAV BAR  **************/
+/*******************************
+*           NAV BAR            *
+*******************************/
+.hero {
+  width: 100%;
+  overflow: hidden;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
