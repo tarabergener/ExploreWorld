@@ -112,6 +112,54 @@ ul li a:hover {
   background-color: #111111;
 }
 
+/*******************************
+*          ACCORDION           *
+*******************************/
+
+.accordion {
+  border: none;
+  border-radius: 0.25rem;
+  overflow: hidden;
+
+  .accordion-item {
+    border-bottom: none;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .accordion-button {
+      background: #855e5e;
+      border: none;
+      width: 100%;
+      text-align: left;
+      padding: 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+
+      &:hover {
+        background: #8b7171;
+      }
+    }
+
+    .accordion-collapse {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      background: #fff;
+
+      .accordion-body {
+        padding: 1rem;
+      }
+    }
+
+    &.active .accordion-collapse {
+      max-height: 200px;
+    }
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

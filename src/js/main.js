@@ -1,9 +1,10 @@
 import "../style/style.css";
-import { setupCounter } from "./counter.js";
+import { accordion } from "./accordion.mjs";
 import { getData } from "./productData.mjs";
 import { loadHeaderFooter } from "./utils.mjs";
 
 loadHeaderFooter();
+accordion();
 
 getData("flights").then((data) => {
   console.log("API DATA:", data);
