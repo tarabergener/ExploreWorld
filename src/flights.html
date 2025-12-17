@@ -9,7 +9,17 @@
   </head>
   <body>
     <header></header>
-    <main>
+    <main class="divider">
+      <div class="container">
+        <!-- <h2 class="title">Flights</h2> -->
+
+        <select class="sortDropdown">
+          <option value="dateAsc">Date ↑</option>
+          <option value="dateDesc">Date ↓</option>
+          <option value="nameAsc">Arrival ↑</option>
+          <option value="nameDesc">Arrival ↓</option>
+        </select>
+      </div>
       <div class="container mt-5 mb-5">
         <table class="table table-striped" id="userTable">
           <thead>

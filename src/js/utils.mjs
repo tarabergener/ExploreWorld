@@ -2,6 +2,20 @@ export function qs(selector, parent = document) {
   return parent.querySelector(selector);
 }
 
+export async function renderListWithTemplate(
+  templateFn,
+  parentElement,
+  list,
+  position = "afterbegin",
+  clear = true
+) {
+  if (clear) {
+    parentElement.innerHTML = "";
+  }
+  const htmlString = list.map(templateFn);
+  parentElement.insertAdjacentHTML(position, htmlString.join(""));
+}
+
 export async function renderHTMLWithTemplate(
   templateFn,
   parentElement,
