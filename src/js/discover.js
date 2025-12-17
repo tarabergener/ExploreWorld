@@ -58,6 +58,7 @@ async function showResult() {
     <h3>Your Results</h3>
     <p>${destination.name}</p>
     <img src="${destination.image}" alt"${destination.name}" style="width=100%; border-radius:10px;">
+    <p class="booking-link"><a href="/src/product.html">Book your vacation today!</a></p>
     </div>
     `;
 }
