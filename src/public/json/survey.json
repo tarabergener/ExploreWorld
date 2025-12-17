@@ -1,0 +1,95 @@
+{
+  "survey": [
+    {
+      "id": 1,
+      "question": "What word best describes a vacation for you?",
+      "answers": [
+        { "text": "Relaxing", "value": 1 },
+        { "text": "Escape", "value": 2 },
+        { "text": "Luxury", "value": 3 },
+        { "text": "Fun", "value": 4 },
+        { "text": "Adventure", "value": 5 }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Do you like to get out of your comfort zone?",
+      "answers": [
+        { "text": "No", "value": 1 },
+        { "text": "Sometimes", "value": 2 },
+        { "text": "Yes", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Who would you most like to travel with?",
+      "answers": [
+        { "text": "Me, myself and I", "value": 1 },
+        { "text": "My significant other", "value": 2 },
+        { "text": "My best friend", "value": 3 },
+        { "text": "My family", "value": 4 },
+        { "text": "Random strangers", "value": 5 }
+      ]
+    }
+  ],
+  "results": {
+    "category1": [
+      {
+        "name": "Big Sur, California",
+        "image": "/src/public/images/bigsur.jpg"
+      },
+      {
+        "name": "Cannon Beach, Oregon",
+        "image": "/src/public/images/cannonbeach.jpg"
+      },
+      {
+        "name": "San Juan Islands, Washington",
+        "image": "/src/public/images/sanjuan.jpg"
+      }
+    ],
+    "category2": [
+      { "name": "Sedona, Arizona", "image": "/src/public/images/sedona.jpg" },
+      {
+        "name": "Great Smoky Mountains, NC",
+        "image": "/src/public/images/smokymountains.jpg"
+      },
+      {
+        "name": "Mackinac Island, Michigan",
+        "image": "/src/public/images/mackinac.jpg"
+      }
+    ],
+    "category3": [
+      {
+        "name": "Four Seasons Resort Lanai, Hawaii",
+        "image": "/src/public/images/lanai.jpg"
+      },
+      {
+        "name": "The Ritz-Carlton, Amelia Island, Florida",
+        "image": "/src/public/images/amelia.jpg"
+      },
+      {
+        "name": "The Peninsula, Paris",
+        "image": "/src/public/images/paris.jpg"
+      }
+    ],
+    "category4": [
+      {
+        "name": "Barcelona, Spain",
+        "image": "/src/public/images/barcelona.jpg"
+      },
+      { "name": "Berlin, Germany", "image": "/src/public/images/berlin.jpg" },
+      { "name": "Dubai, UAE", "image": "/src/public/images/dubai.jpg" }
+    ],
+    "category5": [
+      {
+        "name": "Queenstown, New Zealand",
+        "image": "/src/public/images/queenstown.webp"
+      },
+      { "name": "Costa Rica", "image": "/src/public/images/costarica.jpg" },
+      {
+        "name": "Edinburgh, Scotland",
+        "image": "/src/public/images/edinburgh.jpg"
+      }
+    ]
+  }
+}

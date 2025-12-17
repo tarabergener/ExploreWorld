@@ -59,6 +59,35 @@ h1 {
 }
 
 /*******************************
+*            CARDS             *
+*******************************/
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
+} */
+
+.card img {
+  width: 100%;
+  height: 200px; /* or any card-friendly height */
+  object-fit: cover; /* fills container nicely */
+  border-radius: 10px;
+}
+
+/*******************************
 *           BUTTONS            *
 *******************************/
 button {
