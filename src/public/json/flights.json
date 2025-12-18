@@ -3,358 +3,440 @@
     {
       "date": "2025-01-05",
       "departure": { "location": "New York (JFK)", "time": "08:30" },
-      "arrival": { "location": "London (LHR)", "time": "20:45" }
+      "arrival": { "location": "London (LHR)", "time": "20:45" },
+      "price": 2400
     },
     {
       "date": "2025-01-06",
       "departure": { "location": "Los Angeles (LAX)", "time": "11:15" },
-      "arrival": { "location": "Tokyo (HND)", "time": "16:40" }
+      "arrival": { "location": "Tokyo (HND)", "time": "16:40" },
+      "price": 1500
     },
     {
       "date": "2025-01-07",
       "departure": { "location": "Paris (CDG)", "time": "09:00" },
-      "arrival": { "location": "Rome (FCO)", "time": "11:05" }
+      "arrival": { "location": "Rome (FCO)", "time": "11:05" },
+      "price": 1505
     },
     {
       "date": "2025-01-08",
       "departure": { "location": "Sydney (SYD)", "time": "14:20" },
-      "arrival": { "location": "Auckland (AKL)", "time": "19:10" }
+      "arrival": { "location": "Auckland (AKL)", "time": "19:10" },
+      "price": 2400
     },
     {
       "date": "2025-01-09",
       "departure": { "location": "Dubai (DXB)", "time": "02:50" },
-      "arrival": { "location": "Singapore (SIN)", "time": "14:30" }
+      "arrival": { "location": "Singapore (SIN)", "time": "14:30" },
+      "price": 2000
     },
     {
       "date": "2025-01-01",
       "departure": { "location": "New York (JFK)", "time": "06:00" },
-      "arrival": { "location": "London (LHR)", "time": "18:20" }
+      "arrival": { "location": "London (LHR)", "time": "18:20" },
+      "price": 1800
     },
     {
       "date": "2025-01-02",
       "departure": { "location": "Los Angeles (LAX)", "time": "07:15" },
-      "arrival": { "location": "Tokyo (HND)", "time": "16:40" }
+      "arrival": { "location": "Tokyo (HND)", "time": "16:40" },
+      "price": 1800
     },
     {
       "date": "2025-01-03",
       "departure": { "location": "Chicago (ORD)", "time": "08:30" },
-      "arrival": { "location": "Paris (CDG)", "time": "22:10" }
+      "arrival": { "location": "Paris (CDG)", "time": "22:10" },
+      "price": 1550
     },
     {
       "date": "2025-01-04",
       "departure": { "location": "Miami (MIA)", "time": "09:00" },
-      "arrival": { "location": "Madrid (MAD)", "time": "21:15" }
+      "arrival": { "location": "Madrid (MAD)", "time": "21:15" },
+      "price": 1550
     },
     {
       "date": "2025-01-05",
       "departure": { "location": "Dallas (DFW)", "time": "10:45" },
-      "arrival": { "location": "Toronto (YYZ)", "time": "14:30" }
+      "arrival": { "location": "Toronto (YYZ)", "time": "14:30" },
+      "price": 1600
     },
 
     {
       "date": "2025-01-06",
       "departure": { "location": "San Francisco (SFO)", "time": "11:20" },
-      "arrival": { "location": "Sydney (SYD)", "time": "21:40" }
+      "arrival": { "location": "Sydney (SYD)", "time": "21:40" },
+      "price": 2800
     },
     {
       "date": "2025-01-07",
       "departure": { "location": "Seattle (SEA)", "time": "12:10" },
-      "arrival": { "location": "Vancouver (YVR)", "time": "13:30" }
+      "arrival": { "location": "Vancouver (YVR)", "time": "13:30" },
+      "price": 3000
     },
     {
       "date": "2025-01-08",
       "departure": { "location": "Boston (BOS)", "time": "13:00" },
-      "arrival": { "location": "Dublin (DUB)", "time": "23:05" }
+      "arrival": { "location": "Dublin (DUB)", "time": "23:05" },
+      "price": 1250
     },
     {
       "date": "2025-01-09",
       "departure": { "location": "Atlanta (ATL)", "time": "14:25" },
-      "arrival": { "location": "Cancun (CUN)", "time": "16:55" }
+      "arrival": { "location": "Cancun (CUN)", "time": "16:55" },
+      "price": 1250
     },
     {
       "date": "2025-01-10",
       "departure": { "location": "Denver (DEN)", "time": "15:10" },
-      "arrival": { "location": "Las Vegas (LAS)", "time": "16:40" }
+      "arrival": { "location": "Las Vegas (LAS)", "time": "16:40" },
+      "price": 1250
     },
 
     {
       "date": "2025-01-11",
       "departure": { "location": "Phoenix (PHX)", "time": "06:40" },
-      "arrival": { "location": "San Diego (SAN)", "time": "07:55" }
+      "arrival": { "location": "San Diego (SAN)", "time": "07:55" },
+      "price": 1300
     },
     {
       "date": "2025-01-12",
       "departure": { "location": "Houston (IAH)", "time": "07:30" },
-      "arrival": { "location": "Mexico City (MEX)", "time": "10:20" }
+      "arrival": { "location": "Mexico City (MEX)", "time": "10:20" },
+      "price": 1300
     },
     {
       "date": "2025-01-13",
       "departure": { "location": "Orlando (MCO)", "time": "08:10" },
-      "arrival": { "location": "Bogota (BOG)", "time": "13:45" }
+      "arrival": { "location": "Bogota (BOG)", "time": "13:45" },
+      "price": 1300
     },
     {
       "date": "2025-01-14",
       "departure": { "location": "Las Vegas (LAS)", "time": "09:55" },
-      "arrival": { "location": "Honolulu (HNL)", "time": "13:30" }
+      "arrival": { "location": "Honolulu (HNL)", "time": "13:30" },
+      "price": 2470
     },
     {
       "date": "2025-01-15",
       "departure": { "location": "San Jose (SJC)", "time": "10:35" },
-      "arrival": { "location": "Portland (PDX)", "time": "12:10" }
+      "arrival": { "location": "Portland (PDX)", "time": "12:10" },
+      "price": 2470
     },
 
     {
       "date": "2025-01-16",
       "departure": { "location": "Minneapolis (MSP)", "time": "11:45" },
-      "arrival": { "location": "Winnipeg (YWG)", "time": "13:05" }
+      "arrival": { "location": "Winnipeg (YWG)", "time": "13:05" },
+      "price": 1640
     },
     {
       "date": "2025-01-17",
       "departure": { "location": "Detroit (DTW)", "time": "12:25" },
-      "arrival": { "location": "Montreal (YUL)", "time": "14:00" }
+      "arrival": { "location": "Montreal (YUL)", "time": "14:00" },
+      "price": 1640
     },
     {
       "date": "2025-01-18",
       "departure": { "location": "Cleveland (CLE)", "time": "13:15" },
-      "arrival": { "location": "Newark (EWR)", "time": "14:40" }
+      "arrival": { "location": "Newark (EWR)", "time": "14:40" },
+      "price": 1802
     },
     {
       "date": "2025-01-19",
       "departure": { "location": "Philadelphia (PHL)", "time": "14:05" },
-      "arrival": { "location": "Charlotte (CLT)", "time": "15:45" }
+      "arrival": { "location": "Charlotte (CLT)", "time": "15:45" },
+      "price": 1802
     },
     {
       "date": "2025-01-20",
       "departure": { "location": "Tampa (TPA)", "time": "15:00" },
-      "arrival": { "location": "New Orleans (MSY)", "time": "16:30" }
+      "arrival": { "location": "New Orleans (MSY)", "time": "16:30" },
+      "price": 1695
     },
 
     {
       "date": "2025-01-21",
       "departure": { "location": "Nashville (BNA)", "time": "06:15" },
-      "arrival": { "location": "Austin (AUS)", "time": "08:25" }
+      "arrival": { "location": "Austin (AUS)", "time": "08:25" },
+      "price": 1695
     },
     {
       "date": "2025-01-22",
       "departure": { "location": "Kansas City (MCI)", "time": "07:50" },
-      "arrival": { "location": "Omaha (OMA)", "time": "08:55" }
+      "arrival": { "location": "Omaha (OMA)", "time": "08:55" },
+      "price": 1695
     },
     {
       "date": "2025-01-23",
       "departure": { "location": "St. Louis (STL)", "time": "09:30" },
-      "arrival": { "location": "Memphis (MEM)", "time": "10:40" }
+      "arrival": { "location": "Memphis (MEM)", "time": "10:40" },
+      "price": 2580
     },
     {
       "date": "2025-01-24",
       "departure": { "location": "Birmingham (BHM)", "time": "11:10" },
-      "arrival": { "location": "Raleigh (RDU)", "time": "12:50" }
+      "arrival": { "location": "Raleigh (RDU)", "time": "12:50" },
+      "price": 2580
     },
     {
       "date": "2025-01-25",
       "departure": { "location": "Columbus (CMH)", "time": "12:35" },
-      "arrival": { "location": "Pittsburgh (PIT)", "time": "13:45" }
+      "arrival": { "location": "Pittsburgh (PIT)", "time": "13:45" },
+      "price": 2580
     },
 
     {
       "date": "2025-01-26",
       "departure": { "location": "Milwaukee (MKE)", "time": "14:10" },
-      "arrival": { "location": "Madison (MSN)", "time": "15:00" }
+      "arrival": { "location": "Madison (MSN)", "time": "15:00" },
+      "price": 1346
     },
     {
       "date": "2025-01-27",
       "departure": { "location": "Green Bay (GRB)", "time": "15:20" },
-      "arrival": { "location": "Chicago (ORD)", "time": "16:35" }
+      "arrival": { "location": "Chicago (ORD)", "time": "16:35" },
+      "price": 1346
     },
     {
       "date": "2025-01-28",
       "departure": { "location": "Boise (BOI)", "time": "16:00" },
-      "arrival": { "location": "Salt Lake City (SLC)", "time": "17:20" }
+      "arrival": { "location": "Salt Lake City (SLC)", "time": "17:20" },
+      "price": 1346
     },
     {
       "date": "2025-01-29",
       "departure": { "location": "Spokane (GEG)", "time": "17:30" },
-      "arrival": { "location": "Seattle (SEA)", "time": "18:25" }
+      "arrival": { "location": "Seattle (SEA)", "time": "18:25" },
+      "price": 1584
     },
     {
       "date": "2025-01-30",
       "departure": { "location": "Reno (RNO)", "time": "18:45" },
-      "arrival": { "location": "Sacramento (SMF)", "time": "19:35" }
+      "arrival": { "location": "Sacramento (SMF)", "time": "19:35" },
+      "price": 1584
     },
 
     {
       "date": "2025-01-31",
       "departure": { "location": "Oakland (OAK)", "time": "06:25" },
-      "arrival": { "location": "San Jose (SJC)", "time": "07:10" }
+      "arrival": { "location": "San Jose (SJC)", "time": "07:10" },
+      "price": 1584
     },
     {
       "date": "2025-02-01",
       "departure": { "location": "San Antonio (SAT)", "time": "07:10" },
-      "arrival": { "location": "El Paso (ELP)", "time": "08:35" }
+      "arrival": { "location": "El Paso (ELP)", "time": "08:35" },
+      "price": 2040
     },
     {
       "date": "2025-02-02",
       "departure": { "location": "El Paso (ELP)", "time": "09:15" },
-      "arrival": { "location": "Phoenix (PHX)", "time": "10:55" }
+      "arrival": { "location": "Phoenix (PHX)", "time": "10:55" },
+      "price": 2040
     },
     {
       "date": "2025-02-03",
       "departure": { "location": "Phoenix (PHX)", "time": "11:30" },
-      "arrival": { "location": "San Jose (SJC)", "time": "13:10" }
+      "arrival": { "location": "San Jose (SJC)", "time": "13:10" },
+      "price": 2650
     },
     {
       "date": "2025-02-04",
       "departure": { "location": "San Jose (SJC)", "time": "14:00" },
-      "arrival": { "location": "San Diego (SAN)", "time": "15:25" }
+      "arrival": { "location": "San Diego (SAN)", "time": "15:25" },
+      "price": 2650
     },
     {
       "date": "2025-02-05",
       "departure": { "location": "San Diego (SAN)", "time": "16:10" },
-      "arrival": { "location": "Sacramento (SMF)", "time": "17:45" }
+      "arrival": { "location": "Sacramento (SMF)", "time": "17:45" },
+      "price": 2650
     },
     {
       "date": "2025-02-06",
       "departure": { "location": "Sacramento (SMF)", "time": "06:20" },
-      "arrival": { "location": "Portland (PDX)", "time": "08:05" }
+      "arrival": { "location": "Portland (PDX)", "time": "08:05" },
+      "price": 1200
     },
     {
       "date": "2025-02-07",
       "departure": { "location": "Portland (PDX)", "time": "09:00" },
-      "arrival": { "location": "Bozeman (BZN)", "time": "11:15" }
+      "arrival": { "location": "Bozeman (BZN)", "time": "11:15" },
+      "price": 1200
     },
     {
       "date": "2025-02-01",
       "departure": { "location": "London (LHR)", "time": "09:10" },
-      "arrival": { "location": "Berlin (BER)", "time": "11:45" }
+      "arrival": { "location": "Berlin (BER)", "time": "11:45" },
+      "price": 1200
     },
     {
       "date": "2025-02-02",
       "departure": { "location": "Paris (CDG)", "time": "07:30" },
-      "arrival": { "location": "Barcelona (BCN)", "time": "09:20" }
+      "arrival": { "location": "Barcelona (BCN)", "time": "09:20" },
+      "price": 1200
     },
     {
       "date": "2025-02-03",
       "departure": { "location": "Rome (FCO)", "time": "10:00" },
-      "arrival": { "location": "Athens (ATH)", "time": "12:05" }
+      "arrival": { "location": "Athens (ATH)", "time": "12:05" },
+      "price": 1350
     },
     {
       "date": "2025-02-04",
       "departure": { "location": "Amsterdam (AMS)", "time": "08:15" },
-      "arrival": { "location": "Vienna (VIE)", "time": "10:00" }
+      "arrival": { "location": "Vienna (VIE)", "time": "10:00" },
+      "price": 1350
     },
     {
       "date": "2025-02-05",
       "departure": { "location": "Zurich (ZRH)", "time": "13:40" },
-      "arrival": { "location": "Prague (PRG)", "time": "15:05" }
+      "arrival": { "location": "Prague (PRG)", "time": "15:05" },
+      "price": 1350
     },
     {
       "date": "2025-02-06",
       "departure": { "location": "Madrid (MAD)", "time": "11:20" },
-      "arrival": { "location": "Lisbon (LIS)", "time": "12:35" }
+      "arrival": { "location": "Lisbon (LIS)", "time": "12:35" },
+      "price": 1350
     },
     {
       "date": "2025-02-07",
       "departure": { "location": "Oslo (OSL)", "time": "06:50" },
-      "arrival": { "location": "Copenhagen (CPH)", "time": "08:00" }
+      "arrival": { "location": "Copenhagen (CPH)", "time": "08:00" },
+      "price": 1450
     },
     {
       "date": "2025-02-08",
       "departure": { "location": "Stockholm (ARN)", "time": "09:45" },
-      "arrival": { "location": "Helsinki (HEL)", "time": "11:00" }
+      "arrival": { "location": "Helsinki (HEL)", "time": "11:00" },
+      "price": 1450
     },
     {
       "date": "2025-02-09",
       "departure": { "location": "Dublin (DUB)", "time": "12:10" },
-      "arrival": { "location": "Edinburgh (EDI)", "time": "13:25" }
+      "arrival": { "location": "Edinburgh (EDI)", "time": "13:25" },
+      "price": 1450
     },
     {
       "date": "2025-02-10",
       "departure": { "location": "Istanbul (IST)", "time": "14:30" },
-      "arrival": { "location": "Dubai (DXB)", "time": "20:45" }
+      "arrival": { "location": "Dubai (DXB)", "time": "20:45" },
+      "price": 2600
     },
     {
       "date": "2025-02-11",
       "departure": { "location": "Dubai (DXB)", "time": "02:15" },
-      "arrival": { "location": "Mumbai (BOM)", "time": "07:10" }
+      "arrival": { "location": "Mumbai (BOM)", "time": "07:10" },
+      "price": 2600
     },
     {
       "date": "2025-02-12",
       "departure": { "location": "Delhi (DEL)", "time": "23:40" },
-      "arrival": { "location": "Bangkok (BKK)", "time": "05:55" }
+      "arrival": { "location": "Bangkok (BKK)", "time": "05:55" },
+      "price": 2600
     },
     {
       "date": "2025-02-13",
       "departure": { "location": "Singapore (SIN)", "time": "08:20" },
-      "arrival": { "location": "Hong Kong (HKG)", "time": "12:05" }
+      "arrival": { "location": "Hong Kong (HKG)", "time": "12:05" },
+      "price": 2000
     },
     {
       "date": "2025-02-14",
       "departure": { "location": "Tokyo (NRT)", "time": "10:35" },
-      "arrival": { "location": "Seoul (ICN)", "time": "13:10" }
+      "arrival": { "location": "Seoul (ICN)", "time": "13:10" },
+      "price": 2000
     },
     {
       "date": "2025-02-15",
       "departure": { "location": "Seoul (ICN)", "time": "15:00" },
-      "arrival": { "location": "Beijing (PEK)", "time": "16:40" }
+      "arrival": { "location": "Beijing (PEK)", "time": "16:40" },
+      "price": 2000
     },
     {
       "date": "2025-02-16",
       "departure": { "location": "Shanghai (PVG)", "time": "18:10" },
-      "arrival": { "location": "Taipei (TPE)", "time": "20:05" }
+      "arrival": { "location": "Taipei (TPE)", "time": "20:05" },
+      "price": 2640
     },
     {
       "date": "2025-02-17",
       "departure": { "location": "Sydney (SYD)", "time": "07:00" },
-      "arrival": { "location": "Melbourne (MEL)", "time": "08:35" }
+      "arrival": { "location": "Melbourne (MEL)", "time": "08:35" },
+      "price": 2640
     },
     {
       "date": "2025-02-18",
       "departure": { "location": "Auckland (AKL)", "time": "09:25" },
-      "arrival": { "location": "Fiji (NAN)", "time": "11:55" }
+      "arrival": { "location": "Fiji (NAN)", "time": "11:55" },
+      "price": 2100
     },
     {
       "date": "2025-02-19",
       "departure": { "location": "Johannesburg (JNB)", "time": "22:10" },
-      "arrival": { "location": "Cape Town (CPT)", "time": "00:20" }
+      "arrival": { "location": "Cape Town (CPT)", "time": "00:20" },
+      "price": 2100
     },
     {
       "date": "2025-02-20",
       "departure": { "location": "Cairo (CAI)", "time": "05:45" },
-      "arrival": { "location": "Amman (AMM)", "time": "07:15" }
+      "arrival": { "location": "Amman (AMM)", "time": "07:15" },
+      "price": 2100
     },
     {
       "date": "2025-02-21",
       "departure": { "location": "Tel Aviv (TLV)", "time": "13:30" },
-      "arrival": { "location": "Vienna (VIE)", "time": "16:45" }
+      "arrival": { "location": "Vienna (VIE)", "time": "16:45" },
+      "price": 2310
     },
     {
       "date": "2025-02-22",
       "departure": { "location": "Mexico City (MEX)", "time": "08:50" },
-      "arrival": { "location": "Lima (LIM)", "time": "14:30" }
+      "arrival": { "location": "Lima (LIM)", "time": "14:30" },
+      "price": 2310
     },
     {
       "date": "2025-02-23",
       "departure": { "location": "Bogota (BOG)", "time": "16:15" },
-      "arrival": { "location": "Santiago (SCL)", "time": "23:40" }
+      "arrival": { "location": "Santiago (SCL)", "time": "23:40" },
+      "price": 2500
     },
     {
       "date": "2025-02-24",
       "departure": { "location": "Buenos Aires (EZE)", "time": "21:00" },
-      "arrival": { "location": "São Paulo (GRU)", "time": "23:35" }
+      "arrival": { "location": "São Paulo (GRU)", "time": "23:35" },
+      "price": 2500
     },
     {
       "date": "2025-02-25",
       "departure": { "location": "Toronto (YYZ)", "time": "18:20" },
-      "arrival": { "location": "Vancouver (YVR)", "time": "20:25" }
+      "arrival": { "location": "Vancouver (YVR)", "time": "20:25" },
+      "price": 2500
     },
     {
       "date": "2025-02-26",
       "departure": { "location": "Montreal (YUL)", "time": "09:00" },
-      "arrival": { "location": "Reykjavik (KEF)", "time": "17:10" }
+      "arrival": { "location": "Reykjavik (KEF)", "time": "17:10" },
+      "price": 2400
     },
     {
       "date": "2025-02-27",
       "departure": { "location": "Reykjavik (KEF)", "time": "11:30" },
-      "arrival": { "location": "Oslo (OSL)", "time": "15:40" }
+      "arrival": { "location": "Oslo (OSL)", "time": "15:40" },
+      "price": 2400
+    },
+    {
+      "date": "2025-01-15",
+      "departure": { "location": "Denver (DEN)", "time": "07:20" },
+      "arrival": { "location": "Glacier National Park (FCA)", "time": "10:05" },
+      "price": 1100
+    },
+    {
+      "date": "2025-03-18",
+      "departure": { "location": "Los Angeles (LAX)", "time": "22:45" },
+      "arrival": { "location": "Bora Bora (BOB)", "time": "08:30" },
+      "price": 3200
     }
   ]
 }

@@ -9,7 +9,27 @@
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <div class="booking-container">
+        <form>
+          <label>Select location:</label>
+          <select id="select"></select>
+          <label>Departure Date</label>
+          <input id="date" type="date" readonly />
+          <label>Departing From</label>
+          <input id="departure" readonly />
+          <label>Departure Time</label>
+          <input id="departure-time" readonly />
+          <label>Destination</label>
+          <input id="arrival" readonly />
+          <label>Arrival Time</label>
+          <input id="arrival-time" readonly />
+          <label>Price per person</label>
+          <input id="price" readonly />
+          <button type="submit">Book my vacation!</button>
+        </form>
+      </div>
+    </main>
     <footer></footer>
     <script type="module" src="js/main.js"></script>
   </body>

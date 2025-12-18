@@ -3,6 +3,7 @@ import { accordion } from "./accordion.mjs";
 import { flightList, getFlights } from "./flights.mjs";
 import { getData } from "./flightData.mjs";
 import { loadHeaderFooter } from "./utils.mjs";
+import { populateSelect } from "./booking.mjs";
 
 loadHeaderFooter();
 accordion();
@@ -15,3 +16,5 @@ document.addEventListener("DOMContentLoaded", () => {
 getData("flights").then((data) => {
   console.log("API DATA:", data);
 });
+
+populateSelect();
