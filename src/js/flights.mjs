@@ -65,7 +65,7 @@ export async function flightList(selector, category) {
     dropdown.addEventListener("change", (e) => {
       const sorted =
         e.target.value === "default"
-          ? flights
+          ? [...flights]
           : filterResults(flights, e.target.value);
       renderListWithTemplate(flightRowTemplate, el, sorted);
     });

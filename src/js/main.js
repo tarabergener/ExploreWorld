@@ -3,7 +3,8 @@ import { accordion } from "./accordion.mjs";
 import { flightList, getFlights } from "./flights.mjs";
 import { getData } from "./flightData.mjs";
 import { loadHeaderFooter } from "./utils.mjs";
-import { populateSelect } from "./booking.mjs";
+import { populateSelect, submitBooking } from "./booking.mjs";
+import { checkoutData } from "./checkout.mjs";
 
 loadHeaderFooter();
 accordion();
@@ -18,3 +19,7 @@ getData("flights").then((data) => {
 });
 
 populateSelect();
+
+submitBooking();
+
+checkoutData();
